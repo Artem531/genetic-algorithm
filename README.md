@@ -20,7 +20,7 @@ speed_parameter = 5
 - feature_range = range(-40, 40)
 - num_of_children = 100
 - speed_parameter = 5
-- function = parabula
+- function = parabula (y = x^2 - x)
 
 ## find min
 ![min](min.png)
