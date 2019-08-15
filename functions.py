@@ -32,6 +32,9 @@ def mutation(generation, features, feature_range, number_of_mutations, vis_key =
 # sigmoid to make + prob bigger
 def sigmoid_plus(x):
     try:
+        #math domain error fix
+        x += 1
+        #---------------------
         x = math.log10(x) if x > 0 else -math.log10(abs(x))
         result = 1 / (1 + math.exp(x))
     except OverflowError:
@@ -41,6 +44,9 @@ def sigmoid_plus(x):
 # sigmoid to make - prob bigger
 def sigmoid_minus(x):
     try:
+        # math domain error fix
+        x += 1
+        # ---------------------
         x = math.log10(x) if x > 0 else -math.log10(abs(x))
         result = 1 / (1 + math.exp(-x))
     except OverflowError:
