@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5665580-0627-4ebf-92b4-30745c571490" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ackley.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ackley_function.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ackley_min.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/genetic_algorithm-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/genetic_algorithm-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/genetic_algorithm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/genetic_algorithm.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/max.png" beforeDir="false" afterPath="$PROJECT_DIR$/max.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/min.png" beforeDir="false" afterPath="$PROJECT_DIR$/min.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

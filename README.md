@@ -16,14 +16,17 @@ feature_range = range(-40, 40)
 num_of_children = 100
 ### How often to do mutation (every 5 steps)
 speed_parameter = 5
+### sensivity (1 - high, 10..00 - low)
+sensivity = 1
 
 # results 
 - features = [[10, 4], [14, 21], [10, 1], [14, 10], [10, 40]]
-- life_time = 5000
+- life_time = 1000
 - feature_range = range(-40, 40)
 - num_of_children = 100
 - speed_parameter = 5
 - function = parabula (y = x^2 - x)
+- sensivity = 1
 
 ## find min (y = x^2 - x)
 ![min](min.png)
@@ -32,5 +35,12 @@ speed_parameter = 5
 ![max](max.png)
 
 ## find min (y = ackley)
+
+- features = [[10, 4], [14, 21], [10, 1], [14, 10], [10, 40]]
+- life_time = 1000
+- feature_range = range(-40, 40)
+- num_of_children = 100
+- function = ackley
+- sensivity = 1
 ![min](ackley_min.png)
 
