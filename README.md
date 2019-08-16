@@ -18,6 +18,7 @@ num_of_children = 100
 speed_parameter = 5
 ### sensivity (1 - high, 10..00 - low)
 sensivity = 1
+### smart_mutation (if true - mutation start if result is stable, if false - mutation start every 'speed_parameter' steps) 
 
 # results 
 - features = [[10, 4], [14, 21], [10, 1], [14, 10], [10, 40]]
@@ -27,6 +28,7 @@ sensivity = 1
 - speed_parameter = 5
 - function = parabula (y = x^2 - x)
 - sensivity = 1
+- smart_mutation = False
 
 ## find min (y = x^2 - x)
 ![min](min.png)
@@ -42,5 +44,7 @@ sensivity = 1
 - num_of_children = 100
 - function = ackley
 - sensivity = 1
+- smart_mutation = True
+
 ![min](ackley_min.png)
 
