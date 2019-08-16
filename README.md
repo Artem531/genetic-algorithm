@@ -8,6 +8,7 @@ function = ackley
 #### ackley
 ![ackley](ackley.png)
 ![equation](ackley_function.png)
+
 ### num of steps to find min/max
 life_time = 1000
 ### range of coefficients
